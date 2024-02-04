@@ -33,6 +33,7 @@
 		BBCBC2B62B6F2AF400964CFE /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCBC2B52B6F2AF400964CFE /* CodableBundleExtension.swift */; };
 		BBCBC2B92B6F316300964CFE /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCBC2B82B6F316300964CFE /* AnimalListItemView.swift */; };
 		BBCBC2BB2B6F32AB00964CFE /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCBC2BA2B6F32AB00964CFE /* AnimalModel.swift */; };
+		BBCBC2BD2B6F355300964CFE /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCBC2BC2B6F355300964CFE /* AnimalDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		BBCBC2B52B6F2AF400964CFE /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		BBCBC2B82B6F316300964CFE /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
 		BBCBC2BA2B6F32AB00964CFE /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
+		BBCBC2BC2B6F355300964CFE /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 			children = (
 				BBCBC2AF2B6F27A600964CFE /* CoverImageView.swift */,
 				BBCBC2B82B6F316300964CFE /* AnimalListItemView.swift */,
+				BBCBC2BC2B6F355300964CFE /* AnimalDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				BBCBC2AD2B6F261500964CFE /* MainView.swift in Sources */,
 				BBCBC2B02B6F27A600964CFE /* CoverImageView.swift in Sources */,
 				BBCBC2B32B6F29AA00964CFE /* CoverImageModel.swift in Sources */,
+				BBCBC2BD2B6F355300964CFE /* AnimalDetailView.swift in Sources */,
 				BBCBC2BB2B6F32AB00964CFE /* AnimalModel.swift in Sources */,
 				BBCBC2A92B6F25F400964CFE /* MapView.swift in Sources */,
 				BBCBC27B2B6F21BF00964CFE /* iZooAppApp.swift in Sources */,
