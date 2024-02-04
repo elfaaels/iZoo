@@ -38,6 +38,7 @@
 		BBCBC2C12B6F38D500964CFE /* InsetGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCBC2C02B6F38D500964CFE /* InsetGalleryView.swift */; };
 		BBCBC2C32B6F3B1C00964CFE /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCBC2C22B6F3B1C00964CFE /* InsetFactView.swift */; };
 		BBCBC2C52B6F3E0E00964CFE /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCBC2C42B6F3E0E00964CFE /* InsetMapView.swift */; };
+		BBCBC2C72B6F41D400964CFE /* ExternalWeblinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCBC2C62B6F41D400964CFE /* ExternalWeblinkView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		BBCBC2C02B6F38D500964CFE /* InsetGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryView.swift; sourceTree = "<group>"; };
 		BBCBC2C22B6F3B1C00964CFE /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
 		BBCBC2C42B6F3E0E00964CFE /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
+		BBCBC2C62B6F41D400964CFE /* ExternalWeblinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWeblinkView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +179,7 @@
 				BBCBC2C02B6F38D500964CFE /* InsetGalleryView.swift */,
 				BBCBC2C22B6F3B1C00964CFE /* InsetFactView.swift */,
 				BBCBC2C42B6F3E0E00964CFE /* InsetMapView.swift */,
+				BBCBC2C62B6F41D400964CFE /* ExternalWeblinkView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBCBC2C72B6F41D400964CFE /* ExternalWeblinkView.swift in Sources */,
 				BBCBC27D2B6F21BF00964CFE /* ContentView.swift in Sources */,
 				BBCBC2B92B6F316300964CFE /* AnimalListItemView.swift in Sources */,
 				BBCBC2AD2B6F261500964CFE /* MainView.swift in Sources */,
