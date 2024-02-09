@@ -8,8 +8,30 @@
 import SwiftUI
 
 struct VideoListView: View {
+    
+    @State var videos: [Video] = Bundle.main.decode("videos.json")
+    
     var body: some View {
-        Text("Videos")
+        NavigationView {
+            List {
+                ForEach(videos) { item in
+                   VideoListItemView(video: item)
+                        .padding(.vertical, 8)
+                }
+            }
+            .listStyle(InsetGroupedListStyle())
+            .navigationBarTitle("Videos", displayMode: .inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: {
+                        // Shuffle Videos
+                        videos.shuffle()
+                    }) {
+                        Image(systemName: "arrow.2.squarepath")
+                    }
+                }
+            }
+        }
     }
 }
 
