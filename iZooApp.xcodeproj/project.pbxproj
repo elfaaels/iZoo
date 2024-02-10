@@ -13,6 +13,7 @@
 		BB358D962B76001B000D200A /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB358D952B76001B000D200A /* VideoPlayerHelper.swift */; };
 		BB8AA44B2B77260B00B1AE8A /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8AA44A2B77260B00B1AE8A /* LocationModel.swift */; };
 		BB8AA44D2B772A0800B1AE8A /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8AA44C2B772A0800B1AE8A /* MapAnnotationView.swift */; };
+		BB8AA44F2B772DAB00B1AE8A /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8AA44E2B772DAB00B1AE8A /* MotionAnimationView.swift */; };
 		BBCBC27B2B6F21BF00964CFE /* iZooAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCBC27A2B6F21BF00964CFE /* iZooAppApp.swift */; };
 		BBCBC27D2B6F21BF00964CFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCBC27C2B6F21BF00964CFE /* ContentView.swift */; };
 		BBCBC27F2B6F21C000964CFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBCBC27E2B6F21C000964CFE /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 		BB358D952B76001B000D200A /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
 		BB8AA44A2B77260B00B1AE8A /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		BB8AA44C2B772A0800B1AE8A /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		BB8AA44E2B772DAB00B1AE8A /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		BBCBC2772B6F21BF00964CFE /* iZooApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iZooApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCBC27A2B6F21BF00964CFE /* iZooAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iZooAppApp.swift; sourceTree = "<group>"; };
 		BBCBC27C2B6F21BF00964CFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 				BB30D5EF2B75F8720045E8BA /* VideoListItemView.swift */,
 				BB358D922B75FE87000D200A /* VideoPlayerView.swift */,
 				BB8AA44C2B772A0800B1AE8A /* MapAnnotationView.swift */,
+				BB8AA44E2B772DAB00B1AE8A /* MotionAnimationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				BBCBC2C12B6F38D500964CFE /* InsetGalleryView.swift in Sources */,
 				BB358D932B75FE87000D200A /* VideoPlayerView.swift in Sources */,
 				BB30D5F02B75F8720045E8BA /* VideoListItemView.swift in Sources */,
+				BB8AA44F2B772DAB00B1AE8A /* MotionAnimationView.swift in Sources */,
 				BBCBC2B62B6F2AF400964CFE /* CodableBundleExtension.swift in Sources */,
 				BBCBC2BF2B6F37DB00964CFE /* HeadingView.swift in Sources */,
 			);
