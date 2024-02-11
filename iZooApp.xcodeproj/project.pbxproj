@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BB251D7A2B785B880075A9AF /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB251D792B785B880075A9AF /* AnimalGridItemView.swift */; };
+		BB251D802B7861190075A9AF /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB251D7F2B7861190075A9AF /* Stickers.xcassets */; };
+		BB251D842B7861190075A9AF /* Stickers.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BB251D7D2B7861170075A9AF /* Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BB30D5EE2B75F8190045E8BA /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB30D5ED2B75F8190045E8BA /* VideoModel.swift */; };
 		BB30D5F02B75F8720045E8BA /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB30D5EF2B75F8720045E8BA /* VideoListItemView.swift */; };
 		BB358D932B75FE87000D200A /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB358D922B75FE87000D200A /* VideoPlayerView.swift */; };
@@ -49,8 +51,35 @@
 		BBCBC2C72B6F41D400964CFE /* ExternalWeblinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCBC2C62B6F41D400964CFE /* ExternalWeblinkView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		BB251D822B7861190075A9AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBCBC26F2B6F21BF00964CFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB251D7C2B7861170075A9AF;
+			remoteInfo = Stickers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BB251D882B7861190075A9AF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BB251D842B7861190075A9AF /* Stickers.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		BB251D792B785B880075A9AF /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
+		BB251D7D2B7861170075A9AF /* Stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Stickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB251D7F2B7861190075A9AF /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
+		BB251D812B7861190075A9AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB30D5ED2B75F8190045E8BA /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 		BB30D5EF2B75F8720045E8BA /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
 		BB358D922B75FE87000D200A /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
@@ -105,6 +134,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB251D7E2B7861170075A9AF /* Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				BB251D7F2B7861190075A9AF /* Stickers.xcassets */,
+				BB251D812B7861190075A9AF /* Info.plist */,
+			);
+			path = Stickers;
+			sourceTree = "<group>";
+		};
 		BB358D942B760005000D200A /* Helper */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				BBCBC2792B6F21BF00964CFE /* iZooApp */,
+				BB251D7E2B7861170075A9AF /* Stickers */,
 				BBCBC2782B6F21BF00964CFE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -125,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				BBCBC2772B6F21BF00964CFE /* iZooApp.app */,
+				BB251D7D2B7861170075A9AF /* Stickers.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -236,6 +276,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BB251D7C2B7861170075A9AF /* Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB251D852B7861190075A9AF /* Build configuration list for PBXNativeTarget "Stickers" */;
+			buildPhases = (
+				BB251D7B2B7861170075A9AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stickers;
+			productName = Stickers;
+			productReference = BB251D7D2B7861170075A9AF /* Stickers.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
 		BBCBC2762B6F21BF00964CFE /* iZooApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBCBC2852B6F21C000964CFE /* Build configuration list for PBXNativeTarget "iZooApp" */;
@@ -243,10 +298,12 @@
 				BBCBC2732B6F21BF00964CFE /* Sources */,
 				BBCBC2742B6F21BF00964CFE /* Frameworks */,
 				BBCBC2752B6F21BF00964CFE /* Resources */,
+				BB251D882B7861190075A9AF /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BB251D832B7861190075A9AF /* PBXTargetDependency */,
 			);
 			name = iZooApp;
 			productName = iZooApp;
@@ -263,6 +320,9 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					BB251D7C2B7861170075A9AF = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					BBCBC2762B6F21BF00964CFE = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -282,11 +342,20 @@
 			projectRoot = "";
 			targets = (
 				BBCBC2762B6F21BF00964CFE /* iZooApp */,
+				BB251D7C2B7861170075A9AF /* Stickers */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BB251D7B2B7861170075A9AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB251D802B7861190075A9AF /* Stickers.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BBCBC2752B6F21BF00964CFE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -346,7 +415,53 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		BB251D832B7861190075A9AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB251D7C2B7861170075A9AF /* Stickers */;
+			targetProxy = BB251D822B7861190075A9AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		BB251D862B7861190075A9AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFSN649J32;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stickers/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iZoo;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elfaael.iZooApp.Stickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB251D872B7861190075A9AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFSN649J32;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Stickers/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = iZoo;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elfaael.iZooApp.Stickers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		BBCBC2832B6F21C000964CFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -524,6 +639,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BB251D852B7861190075A9AF /* Build configuration list for PBXNativeTarget "Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB251D862B7861190075A9AF /* Debug */,
+				BB251D872B7861190075A9AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BBCBC2722B6F21BF00964CFE /* Build configuration list for PBXProject "iZooApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
