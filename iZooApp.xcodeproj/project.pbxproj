@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB251D7A2B785B880075A9AF /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB251D792B785B880075A9AF /* AnimalGridItemView.swift */; };
 		BB30D5EE2B75F8190045E8BA /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB30D5ED2B75F8190045E8BA /* VideoModel.swift */; };
 		BB30D5F02B75F8720045E8BA /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB30D5EF2B75F8720045E8BA /* VideoListItemView.swift */; };
 		BB358D932B75FE87000D200A /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB358D922B75FE87000D200A /* VideoPlayerView.swift */; };
@@ -49,6 +50,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB251D792B785B880075A9AF /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 		BB30D5ED2B75F8190045E8BA /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 		BB30D5EF2B75F8720045E8BA /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
 		BB358D922B75FE87000D200A /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 				BB358D922B75FE87000D200A /* VideoPlayerView.swift */,
 				BB8AA44C2B772A0800B1AE8A /* MapAnnotationView.swift */,
 				BB8AA44E2B772DAB00B1AE8A /* MotionAnimationView.swift */,
+				BB251D792B785B880075A9AF /* AnimalGridItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -331,6 +334,7 @@
 				BB30D5EE2B75F8190045E8BA /* VideoModel.swift in Sources */,
 				BBCBC2AB2B6F260400964CFE /* GalleryView.swift in Sources */,
 				BB8AA44B2B77260B00B1AE8A /* LocationModel.swift in Sources */,
+				BB251D7A2B785B880075A9AF /* AnimalGridItemView.swift in Sources */,
 				BBCBC2C12B6F38D500964CFE /* InsetGalleryView.swift in Sources */,
 				BB358D932B75FE87000D200A /* VideoPlayerView.swift in Sources */,
 				BB30D5F02B75F8720045E8BA /* VideoListItemView.swift in Sources */,
